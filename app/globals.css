@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.itim{
+  font-family: 'Itim';
+}.l{
+  min-height: calc(100vh - 88px);
+}
+.rounded-3xl{
+  border-radius: 58px;
+}
+.image{
+  position: absolute;
+  top:0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
